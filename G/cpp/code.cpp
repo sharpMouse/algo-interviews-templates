@@ -7,10 +7,10 @@ struct Vertex {
     int w;
     int p;
 
-    Vertex(int w, int p) {
-        w = w;
-        p = p;
-    }
+    Vertex(int w, int p):
+        w(w),
+        p(p)
+    {}
 };
 
 
